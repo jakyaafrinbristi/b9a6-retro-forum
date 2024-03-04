@@ -23,7 +23,7 @@
         <!-- nav section start -->
         <div class="mx-auto px-8 py-8 lg:px-28">
             <div class="flex justify-between">
-                <div><img src="./images/logo.png" alt="">
+                <div class="text-4xl font-extrabold">Bris<span class="uppercase">h</span>ti
                 </div>
                 <div class="flex gap-6 items-center">
                     <div class="flex gap-5">
@@ -55,7 +55,7 @@
             <div class=" bg-[#12132D]	rounded-xl bg-cover" style="background-image: url('./images/banner.png')">
                 <div class="flex items-center p-20 ">
                     <div class="">
-                        <h1 class="text-white font-black text-6xl mb-5">Welcome to the <br> ReTro Forum</h1>
+                        <h1 class="text-white font-black text-6xl mb-5">Welcome to the <br> BrisHti Forum</h1>
                         <p class="text-white mb-8 text-xl">Share your favorite opinion and win and wp forum coffee mug!</p>
                         <label class="input input-bordered py-3 px-5 gap-2 rounded-full">
                             <input type="text" placeholder="Search here anything" />
@@ -106,8 +106,27 @@
                 <h1 class="text-4xl	font-black">Let’s Discuss</h1>
                 <p class="font-normal text-lg mt-5">Yes, you can run unit tests and view the results directly within the app. <br>The integrated testing features allow for a streamlined .</p>
             </div>
-            <div class="grid grid-cols-1 gap-5" id="discuss-container">
+            <div class="flex flex-col  lg:flex-row gap-10 	">
+                <div class="grid grid-cols-1 gap-5 " id="discuss-container">
 
+                </div> 
+                <div >
+                    
+                    <div class="overflow-x-auto ">
+                      <table class="table table-zebra mb-12">
+                        <!-- head -->
+                        <thead class="font-extrabold text-xl ">
+                          <tr>
+                            <th>Title</th>
+                               <th><span class="text-green-500"><i class="fa-solid fa-check-double"></i></span> Mark as read <span id="read">(0)</span></th>
+                          </tr>
+                        </thead>
+                        <tbody id="tbody-container" class="flex flex-col gap-5 mt-5  ">
+                        
+                        
+                         
+                        </tbody>
+                      </table>
             </div>
 
         </section>
@@ -123,7 +142,7 @@
                       <img src="./images/forum.png" class="max-w-sm rounded-lg shadow-2xl" />
                       <div>
                         <h1 class="text-5xl font-bold text-white">Join Our Forum</h1>
-                        <p class="py-6 text-white">Share your favorite opinion and win and wp forum coffee mug! Yes, you can run unit tests and view the results directly within the app. </p>
+                        <p class="py-6 text-white">Join our forum to connect with like-minded individuals, share ideas, and stay updated on the latest discussions in our community. </p>
                         <button class="btn btn-primary rounded-full text-white">Registered Now</button>
                       </div>
                     </div>
@@ -155,7 +174,7 @@
     <div class="mx-auto px-8 py-8 lg:px-28">
         <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
             <img src="./images/logo.png" alt="">
-            <p class="text-xl font-bold">Contrary to popular belief, Lorem Ipsum is not simply random text.<br> It has roots in a piece of classical Latin literature from 45 BC</p>
+            <p class="text-xl font-bold">It's common to include links to the API's terms of use and privacy policy <br> in the footer. This text ensures users understand the terms .</p>
           
             <nav>
               <div class="grid grid-flow-col gap-4">
@@ -183,3 +202,7 @@
 </body>
 
 </html>
+<!-- <div class="flex justify-between gap-5">
+    <div>${singlePost.title}</div>
+    <div><i class="fa-regular fa-eye"></i></div>
+    <div>${singlePost.view_count}</div> -->
